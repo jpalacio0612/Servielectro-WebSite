@@ -143,10 +143,26 @@ footer{
   }
 
   .hero h1{
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .servicios_container{
     padding: 0 10px;
   }
+
+  .hero{
+  
+    background-image: url(../images/cctv.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    margin: 0;
+  
+  }
+  
 }
