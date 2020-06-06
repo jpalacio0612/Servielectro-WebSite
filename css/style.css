@@ -97,3 +97,56 @@ footer{
   display: flex;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 768px){
+  .servicios_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    padding: 0 100px;
+    grid-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .servicios_container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows:  1fr;
+    padding: 0 100px;
+    grid-gap: 15px;
+  }
+
+  .contacto{
+    display: block;
+  }
+
+  header{
+    display: block;
+    height: auto;
+  }
+
+  header ul{
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  header ul li{
+    margin-bottom: 5px;
+  }
+
+  .logo_completo{
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .hero h1{
+    font-size: 40px;
+  }
+
+  .servicios_container{
+    padding: 0 10px;
+  }
+}
